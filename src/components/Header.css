@@ -1,0 +1,34 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+    align-items: center;
+    background-color: var(--element);
+    color: var(--text-and-Icons);
+    margin-bottom: 40px;
+}
+
+.title {
+    font-size: 1.50rem;
+    font-weight: 800;
+}
+
+.darkmode-container {
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+@media only screen and (max-width: 500px) {
+    .header {
+        padding: 20px 20px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .title {
+        font-size: 1.20rem;
+    }
+
+}

@@ -1,0 +1,49 @@
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 50px; */
+    width: 287px;
+    transition: 0.5s;
+    border-radius: 7px;
+    overflow: hidden;
+    margin: 0px auto 0px auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.cards:hover{
+    transform: scale(1.03);
+}
+
+.container {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: var(--element);
+    color: var(--text-and-Icons);
+    font-size: 14px;
+    padding: 30px 30px 50px 30px;
+    display: grid;
+    gap: 10px;
+}
+
+.image {
+    width: 100%;
+    height: 200px;
+}
+
+.details {
+    display: grid;
+    gap: 5px;
+}
+
+.details > div {
+    display: flex;
+    gap: 5px;
+}
+
+.label {
+    font-weight: 600;
+}
+
